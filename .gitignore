@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+# folders
+/.idea
+/target
+/src/main/resources/*
+
+# Log file
+*.log
+*.iml
