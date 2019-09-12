@@ -12,7 +12,7 @@ public class ResultPage {
     }
 
     public void navigateToPage(int number){
-        driver.findElement(By.xpath("//table[@id='nav']/tbody/tr/td[" + number + "]/a")).click();
+        driver.findElement(By.xpath("//table[@id='nav']/tbody/tr/td[" + (number+1) + "]/a")).click();
     }
 
     public void clickResultLinkByNumber(int number){
